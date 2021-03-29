@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BusMall</title>
     <link rel="stylesheet" href="style/reset.css">
-    <link rel="stylesheet" href="style/style.css">
-    <title>busMall</title>
-</head>
-<body>
-    
-    <div class="container">
-        <div class="imgBox">
-            <img src="assets/bag.jpg" alt="">
-            <h3>name</h3>
+    <link href="style/style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div>
+          <h1>BusMall</h1>
         </div>
-        <div class="imgBox">
-            <img src="assets/banana.jpg" alt="">
-            <h3>name</h3>
-        </div>
-        <div class="imgBox">
-            <img src="assets/bubblegum.jpg" alt="">
-            <h3>name</h3>
-        </div>
-
+        <div class="nav-bar">
+          <ul>
+          <li>Home</li>
+          <li>Products</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+        
     </div>
-
-
-
+    </header>
+    <main>
+      <section id="product"></section>
+      <canvas id="myChart" width="400" height="400"></canvas>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>
