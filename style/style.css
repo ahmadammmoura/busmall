@@ -1,0 +1,22 @@
+.container{
+    width: 90%;
+    margin: auto;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+}
+
+.container .imgBox{
+    width: 25%;
+    margin-top: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.container .imgBox img{
+    width: 100%;   
+}
