@@ -1,50 +1,26 @@
 body {
-  background-color: lightcyan;
+  background-color: #f1f1f1;
+}
+
+#product{
+  width: 100%;
 }
 
 img {
   border: solid black 2px;
   height: auto;
   margin: 5px;
+  margin-left: 2.5%;
   width: 30%;
-  height: 250px;
+  height: 300px;
 }
 
-ul {
-  border: black 2px solid;
-  background-color: darkslateblue;
-  color: white;
-  display: inline-block;
-  font-weight: bold;
-  list-style-type: none;
-  line-height: 46px;
-  margin: 0;
-  padding: 5px;
+header h1{
+  margin: auto;
   text-align: center;
-  width: 350px;
-  
+  margin-bottom: 50px;
+  margin-top: 30px;
 }
-
-li {
-  display: inline-block;
-  margin:5px;
-  padding: 5px;
-}
-
-li:hover{
-  background-color: lightblue;
-}
-
-h1 {
-  font-size: 2.5em;
-  float: left;
-  line-height: 40px;
-  text-align: center;
-  width: 200px;
-  
-}
-
-
 
 canvas {
   display: block;
