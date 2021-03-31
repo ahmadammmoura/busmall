@@ -11,7 +11,7 @@ let views = [];
 
 
 function ProductImage(name){
-  this.filepath = `${name}`;
+  this.filepath = `img/${name}`;
   this.alt = name;
   this.title = name;
   this.votes = 0;
